@@ -11,7 +11,7 @@ def home():
    <html>
    <body>
       <h1>Hello, ''' + name + '''!</h1>
-      <a href="https://www.google.com/"> not google</a>
+      <a href="www.google.com/"> not google</a>
       <ul>
          <li>''' + city_name[0] +  '''</li>
          <li>''' + city_name[1] + '''</li>  
