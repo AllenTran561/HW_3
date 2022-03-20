@@ -20,4 +20,4 @@ def home():
       </ul>
    </html>
    '''
-myapp_obj.run()
+#myapp_obj.run()
