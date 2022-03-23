@@ -3,7 +3,7 @@ from flask import escape
  
 myobj = Flask(__name__)
  
-@myapp_obj.route("/")
+@myobj.route("/")
 def home():
    name = "Lisa"
    city_name = ["Paris", "London", "Rome", "Tahiti"]
