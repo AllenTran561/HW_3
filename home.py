@@ -2,11 +2,12 @@ from flask import Flask
 from flask import escape
  
 myobj = Flask(__name__)
+
+name = "Lisa"
+city_name = ["Paris", "London", "Rome", "Tahiti"]
  
 @myobj.route("/")
 def home():
-   name = "Lisa"
-   city_name = ["Paris", "London", "Rome", "Tahiti"]
    return '''
    <html>
    <body>
@@ -20,4 +21,4 @@ def home():
       </ul>
    </html>
    '''
-myobj.run()
+#myobj.run()
