@@ -2,7 +2,6 @@ from flask import Flask
 from flask import escape
  
 myobj = Flask(__name__)
-
 name = "Lisa"
 city_name = ["Paris", "London", "Rome", "Tahiti"]
  
@@ -10,8 +9,11 @@ city_name = ["Paris", "London", "Rome", "Tahiti"]
 def home():
    return '''
    <html>
+      <h1>
+         <title> Home </title>
+      <h1>
    <body>
-      <h1>Hello, ''' + name + '''!</h1>
+      <h1>Welcome, ''' + name + '''!</h1>
       <a href="www.google.com/"> not google</a>
       <ul>
          <li>''' + city_name[0] +  '''</li>
@@ -21,4 +23,4 @@ def home():
       </ul>
    </html>
    '''
-#myobj.run()
+myobj.run()
