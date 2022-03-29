@@ -13,14 +13,15 @@ def home():
          <title>WelcomeLisa!</title>
       <head>
    <body>
-      <h1>Welcome, ''' + name + '''</h1>
-      <ahref="www.google.com">notgoogle</a>
+      <h1>Welcome, ''' + name + '''!</h1>
+      <a href="www.google.com">notgoogle</a>
       <ul>
-         <li>''' + city_names[0] +  '''</li>
-         <li>''' + city_names[1] + '''</li>  
-         <li>''' + city_names[2] + '''</li> 
-         <li>''' + city_names[3] + '''</li>  
+         <li>''' + city_names[0] + '''</li>
+         <li>''' + city_names[1] + '''</li>
+         <li>''' + city_names[2] + '''</li>
+         <li>''' + city_names[3] + '''</li>
+
       </ul>
    </html>
    '''
-#myobj.run()
+myobj.run()
